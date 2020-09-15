@@ -1,0 +1,71 @@
+body{
+	margin:0;
+}
+header{
+	background-image: url(../images/bg.jpg);
+	padding: 300px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+	background-color: #165a5554;
+	background-blend-mode: multiply;
+}
+.container{
+	height: 100px;
+	width: 1000px;
+	margin: auto;
+}
+.col-1{
+    width: 18%;
+    float: left;
+}
+.col-2{
+    width: 49%;
+    float: left;
+}
+
+img{
+	max-width: 38%;
+	width: 304px;
+	margin-left: auto;
+	display: block;
+}
+
+header h1{
+	font-size: 39px;
+	color: #ffff;
+	margin: 0;
+}
+header p{
+	color: #fff;
+	margin: 3px;
+	font-size: 17px;
+}
+a{
+	background: #f53841;
+	color: #fff;
+	font-size: 21px;
+	text-decoration: none;
+	padding: 5px 40px;
+	display: inline-block;
+	border-radius: 8px;
+	text-transform: uppercase;
+}
+
+.about-pnp{
+    padding: 100px 0;
+    text-align: center;
+}
+.about-pnp h1{
+    font-size: 30px;
+    margin: 0;
+}
+.about-pnp p{
+    font-size: medium;
+    color: #515052;
+}
+
+.about-pnp strong{
+	
+color: black;
+}
